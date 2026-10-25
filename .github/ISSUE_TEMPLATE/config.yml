@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question or get help
+    url: https://discord.gg/phanxgames
+    about: Questions are answered fastest in the Discord.
+  - name: ThicketScript, the language
+    url: https://www.thicketscript.com/
+    about: Language questions and docs live on thicketscript.com.

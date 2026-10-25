@@ -1,0 +1,26 @@
+name: Feature request
+description: Something you'd like a studio to do.
+labels: ["feature"]
+body:
+  - type: dropdown
+    id: studio
+    attributes:
+      label: Studio
+      options:
+        - "Waystone: RPG Creation Studio"
+        - Anthill
+        - Hedge
+        - Lilypad
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What would it help you make?
+      description: The game or moment you have in mind helps us understand the need.

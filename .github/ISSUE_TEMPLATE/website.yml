@@ -1,0 +1,17 @@
+name: Website problem
+description: A broken link, a typo or a page that looks wrong on thicketcreator.com.
+labels: ["website"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      placeholder: "https://www.thicketcreator.com/..."
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong?
+    validations:
+      required: true

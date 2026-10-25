@@ -1,0 +1,53 @@
+name: Bug report
+description: Something in a studio doesn't work as it should.
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: studio
+    attributes:
+      label: Studio
+      options:
+        - "Waystone: RPG Creation Studio"
+        - Anthill
+        - Hedge
+        - Lilypad
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Shown in the studio's About box.
+      placeholder: "e.g. 0.1.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows
+        - macOS
+        - Linux
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What did you do?
+      description: Steps that make the problem happen, one per line.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead?
+      description: Error messages, screenshots or a short video help a lot.
+    validations:
+      required: true
