@@ -6,3 +6,6 @@ contact_links:
   - name: ThicketScript, the language
     url: https://www.thicketscript.com/
     about: Language questions and docs live on thicketscript.com.
+  - name: ThicketScript language bugs
+    url: https://github.com/devthicket/thicketscript-issues
+    about: Bugs in the language itself go to the ThicketScript issues repo.

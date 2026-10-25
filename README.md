@@ -17,7 +17,7 @@ This repository holds issues only; the studios' source is not here.
 - **Search first.** Someone may have reported it already; add a 👍 or your details to that issue instead.
 - **One problem per issue.**
 - **Questions and help** are quicker in the [Discord](https://discord.gg/phanxgames).
-- **The language itself** (ThicketScript) has its own page: [thicketscript.com](https://www.thicketscript.com/).
+- **The language itself** (ThicketScript) has its own issues repo: [thicketscript-issues](https://github.com/devthicket/thicketscript-issues). Not sure which? File it here and we will move it.
 
 ## Opening an issue
 
